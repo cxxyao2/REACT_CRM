@@ -1,0 +1,107 @@
+.toolbar {
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgb(27, 0, 113);
+  height: 56px;
+  z-index: 150;
+}
+
+.toolbar_navigation {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  padding: 0 1rem;
+}
+.toolbar_logo {
+  margin-left: 1rem;
+}
+
+.toolbar_logo a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.toolbar_navigation-items ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* flex-direction: default is row */
+}
+
+.toolbar_navigation-items li {
+  padding: 0 0.5rem;
+}
+
+/* TODO 需要验证是否要改成div */
+.toolbar_navigation-items li.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.toolbar_navigation-items li.dropdown .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.toolbar_navigation-items li.dropdown .dropdown-content ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.toolbar_navigation-items li.dropdown .dropdown-content ul li a {
+  color: var(--bs-blue);
+  padding: 12px 16px;
+  display: block;
+  transition: color 0.5s ease-in;
+}
+
+.toolbar_navigation-items li.dropdown .dropdown-content ul li a:hover {
+  color: rgb(1, 1, 12);
+}
+.toolbar_navigation-items li.dropdown:hover .dropdown-content {
+  display: block;
+  z-index: 99999;
+}
+
+.toolbar_navigation-items .iconUp {
+  position: relative !important;
+  top: -10px;
+}
+
+.toolbar_navigation-items a {
+  color: white;
+  text-decoration: none;
+}
+
+.toolbar_navigation-items a:hover,
+.toolbar_navigation-items a:active {
+  color: #fa923f;
+}
+
+@media (max-width: 768px) {
+  .toolbar_navigation-items {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) {
+  .toolbar_toggle-button {
+    display: none;
+  }
+
+  .toolbar_logo {
+    margin-left: 0;
+  }
+}

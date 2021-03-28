@@ -1,0 +1,6 @@
+.backToTop {
+  position: fixed;
+  left: 85%;
+  top: 90%;
+  z-index: 99999;
+}

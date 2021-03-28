@@ -1,0 +1,21 @@
+.report_table {
+  border-spacing: 20px !important;
+}
+
+.table-row {
+  transition: background-color 1s;
+}
+.table-row:hover {
+  background-color: coral !important;
+}
+
+.report_table tr:nth-child(odd) {
+  background: #f4f4f4;
+}
+.report_table tr:nth-child(even) {
+  background: #fff;
+}
+.report_table tr:nth-child(5) {
+  background: #73b1e0;
+  color: #fff;
+}

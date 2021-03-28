@@ -1,0 +1,16 @@
+body {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--color-body);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+body,
+html {
+  background-color: #f8f9fa;
+}

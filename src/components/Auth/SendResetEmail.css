@@ -1,0 +1,34 @@
+.email-progress {
+  animation: emailProgress 2s infinite;
+  -webkit-animation: emailProgress 2s infinite; /* Safari 与 Chrome */
+}
+
+@keyframes emailProgress {
+  0% {
+    background: rgb(204, 225, 255);
+  }
+  25% {
+    background: rgb(153, 194, 255);
+  }
+  50% {
+    background: rgb(102, 162, 255);
+  }
+  100% {
+    background: rgb(52, 128, 255);
+  }
+}
+
+@-webkit-keyframes emailProgress /* Safari 与 Chrome */ {
+  0% {
+    background: rgb(204, 225, 255);
+  }
+  25% {
+    background: rgb(153, 194, 255);
+  }
+  50% {
+    background: rgb(102, 162, 255);
+  }
+  100% {
+    background: rgb(52, 128, 255);
+  }
+}

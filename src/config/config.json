@@ -1,0 +1,8 @@
+{
+  "myMapKey": "",
+  "LineNumberPerPage": 20,
+  "saveNotStarted": 0,
+  "saveStarted": 1,
+  "saveSucceed": 2,
+  "saveFailed": 3
+}

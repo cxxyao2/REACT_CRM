@@ -1,0 +1,8 @@
+.avatar {
+  height: 75px;
+  object-fit: cover;
+}
+
+.avatar_ul {
+  list-style-type:none;
+}
