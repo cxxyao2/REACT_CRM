@@ -16,6 +16,7 @@ Runs the app in the development mode
 - Rcharts
 - Redux
 - class components, functional component
+- controlled vs uncontrolled component
 - Bootstrap 5.0
 - File download, upload
 - Take photoes
