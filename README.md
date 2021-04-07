@@ -2,8 +2,7 @@
 
 A simple CRM system. Salesperson can visit clients, take notes, place orders, take photes, upload and download files and create reports, reset password by click the link in the email etc.
 
-## Deployment
-This project is deployed on Heroku: https://vast-beyond-82605.herokuapp.com
+
 
 ## Create React App
 
