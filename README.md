@@ -19,6 +19,7 @@ Runs the app in the development mode
 - Bootstrap 5.0
 - File download, upload
 - Take photoes
+- Form validator(Custom validate or Yup/ Joi package)
 - Environmental variableS(REACT_APP_ ...)
 
 ## Back-end
